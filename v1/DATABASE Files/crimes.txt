@@ -1,0 +1,4 @@
+"17-04-2020";"17:05";"Beja";"Roubo";"Ze"
+"17-05-2020";"17:05";"Coimbra";"Murro";"Tania"
+"17-06-2020";"17:05";"Salvada";"Ovelha";"Duarte"
+
