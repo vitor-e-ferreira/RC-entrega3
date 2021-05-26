@@ -2,3 +2,16 @@
 "17-05-2020";"17:05";"Coimbra";"Murro";"Tania"
 "17-06-2020";"17:05";"Salvada";"Ovelha";"Duarte"
 
+"1-2-2001";"12:45";"Coimbra";"'Roubo";"da"
+"1-2-2001";"12:30";"Coimbra";"Agressão";"severa"
+"1-2-2000";"12:40";"Coimbra";"Assalto";"violento"
+"1-1-2001";"11:00";"Coimbra";"'Oliveira";"de"
+"1-1-2000";"12:30";"coimbra";""assolto";"aoso""
+"1-1-2000";"11:30";"Coimbra";"'Coimbra";"ahah'"
+"1-2-2000";"12:30";"Coimbra";"oliveira de azemeis
+";"Vitor"
+"1-2-2000";"12:40";"Oliveira de Az";"Assalto fodido
+";"João"
+"1-2-2000";"11:30";"Cais do sodre";"teste de teste";"Joao Ruivo"
+"2-5-2021";"16:20";"Coimbra ponte sul";"Assaalto mesmo fodido";"anonimo"
+"1-2-2000";"12:56";"Oliveira de azemies";"xino no olho";"Tom Hanks"
