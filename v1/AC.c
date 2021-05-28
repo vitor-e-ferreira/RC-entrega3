@@ -182,6 +182,20 @@ int main(){
 				sleep(3);
 			}
 
+			//OPERAÇÃO 3 - REGISTO
+			if(operacao[0] == '3'){
+				char localEmergencia[40];
+				nBytes = recvfrom(udpSocket, localEmergencia, 40, 0, (struct sockaddr *)&serverStorage, &addr_size);
+				fflush(stdin);
+				
+				printf("Local da ocorrencia: %s\n",localEmergencia);
+				//nBytes = strlen("1")+1;
+				//sendto(udpSocket, "1", nBytes, 0, (struct sockaddr *)&serverStorage, addr_size);
+				//fflush(stdout);
+				sleep(3);
+			}
+
+
 			//OPERACAO 7 - SUBMETER CRIME
 			if(operacao[0] == '7'){
 				nBytes = recvfrom(udpSocket, crime, 1000, 0, (struct sockaddr *)&serverStorage, &addr_size);

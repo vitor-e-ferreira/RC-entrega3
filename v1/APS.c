@@ -239,11 +239,42 @@ int main(){
 		//OPÇÃO 3 - EMERGÊNCIA - TBD-------------------------------------------------------------------------------------------------------------------------------
 		if(menu1[0] == '3'){
 			//MODO DE EMERGÊNCIA
+			nBytes = strlen("3")+1;
+			sendto(clientSocket, "3", nBytes, 0, (struct sockaddr *)&serverAddr, addr_size);
+			fflush(stdout);
+
+			system("clear");
+			header();
+
+			char localEmergencia[40];
+
+			while(getchar() != '\n'); //para eliminar o \n do buffer
+			fflush(stdin);
+			
+			while(1){
+				printf("Insira o local da ocorrência (máx 40 char): ");
+				fgets(localEmergencia,40,stdin);
+				fflush(stdin);
+
+				localEmergencia[strcspn(localEmergencia,"\n")] = 0; //retira o "\n" do fim da string
+
+				if(strlen(localEmergencia) > 0 && strlen(localEmergencia) < 41){
+					break;
+				}
+			}
+
+			nBytes = strlen(localEmergencia) +1;
+			sendto(clientSocket, localEmergencia, nBytes,0,(struct sockaddr *)&serverAddr,addr_size);
+
+			printf("O seu pedido de emergencia foi enviado!\n");
+
+			sleep(2);
+			goto loginmenu;
 		}
 		//---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-		//OPÇÃO 4 - SAIR - TBD-------------------------------------------------------------------------------------------------------------------------------------
+		//OPÇÃO 4 - SAIR --------------------------------------------------------------------------------------------------------------------------------------
 		if(menu1[0] == '4'){
 			fflush(stdout);
 			
