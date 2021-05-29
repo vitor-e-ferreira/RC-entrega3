@@ -252,7 +252,7 @@ int main(){
 			fflush(stdin);
 			
 			while(1){
-				printf("Insira o local da ocorrência (máx 40 char): ");
+				printf("\nInsira o local da ocorrência (máx 40 char): ");
 				fgets(localEmergencia,40,stdin);
 				fflush(stdin);
 

@@ -182,13 +182,15 @@ int main(){
 				sleep(3);
 			}
 
-			//OPERAÇÃO 3 - REGISTO
+			//OPERAÇÃO 3 - Botão de emergencia
 			if(operacao[0] == '3'){
 				char localEmergencia[40];
 				nBytes = recvfrom(udpSocket, localEmergencia, 40, 0, (struct sockaddr *)&serverStorage, &addr_size);
 				fflush(stdin);
 				
 				printf("Local da ocorrencia: %s\n",localEmergencia);
+
+				//Enviar a informação para o AAS
 				//nBytes = strlen("1")+1;
 				//sendto(udpSocket, "1", nBytes, 0, (struct sockaddr *)&serverStorage, addr_size);
 				//fflush(stdout);
