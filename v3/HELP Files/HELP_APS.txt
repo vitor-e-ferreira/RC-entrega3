@@ -44,8 +44,7 @@ Este ficheiro foi desenvolvido com o objectivo de clarificar os utilizadores de 
    --Tipo de Agressao: preencha o espaço com o tipo de crime que presenciou (nao exceda os 40 caracteres);
    
    --Nome: preencha o espaço com o nome da vitima ou seu próprio nome(não exceda os 40 caracteres).
-   	   CASO TEMA PELA SUA SEGURANÇA, PODE DENUNCIAR O CRIME DE FORMA ANÓNIMA!!PARA ISSO ESCREVA
-   	   NO ESPAÇO O SEGUINTE ➡️ anonimo
+   	   Caso tenha optado for preencher o registo em anónimo esta opção não será apresentada
 
 ->Gerir registo:
   --Alterar registo:
